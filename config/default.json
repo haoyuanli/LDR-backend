@@ -1,0 +1,19 @@
+{
+  "port": "env(PORT)",
+  "settings": {
+    "loggerFormat": "tiny",
+    "session": {
+      "store": "@foal/typeorm"
+    }
+  },
+  "secret": "env(SECRET)",
+  "database": {
+    "type": "env(DB_TYPE)",
+    "host": "env(DB_HOST)",
+    "port": "env(DB_PORT)",
+    "username": "env(DB_USERNAME)",
+    "password": "env(DB_PASSWORD)",
+    "database": "env(DB_NAME)",
+    "ssl": "env(DB_SSL)"
+  }
+}
